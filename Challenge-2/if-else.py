@@ -1,6 +1,5 @@
-f  = open('input.txt', 'r')
-wr = open('output.txt', 'w')
-s= [1,2,3,4,5,6]
+f  = open('..//Input-Output//input.txt', 'r')
+wr = open('..//Input-Output//output.txt', 'w')
 for a in f:
     c = a.strip()
     try:
@@ -12,7 +11,7 @@ for a in f:
             wr.write('Not Weird \n')
         if e >= 6 and e <= 20 and e % 2 == 0:
             wr.write('Weird \n')
-        if e > 20 and e % 2 != 0:
+        if e > 20 and e % 2 == 0:
             wr.write('Not Weird \n')
     except ValueError:
         wr.write('Chi xet so nguyen \n')
