@@ -1,5 +1,6 @@
 f  = open('..//Input-Output//input.txt', 'r')
 wr = open('..//Input-Output//output.txt', 'w')
+d = []
 for a in f:
     c = a.strip()
     try:
@@ -15,9 +16,4 @@ for a in f:
             wr.write('Not Weird \n')
     except ValueError:
         wr.write('Chi xet so nguyen \n')
-
-
-
-
 wr.close()
-
