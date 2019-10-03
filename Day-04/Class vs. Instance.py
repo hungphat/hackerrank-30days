@@ -8,7 +8,6 @@ class Person:
         self.inittia_age = initialAge
         if self.inittia_age < 0:
             print('Age is not valid, setting age to 0')
-
     def amIOld(self):
         compte = self.inittia_age
         if compte>=0 and compte < 13 :
@@ -26,7 +25,6 @@ for line in f:
     if a < 0:
         d.append(a)
 g = [x for x in e if x not in d]        #--Remove e from d
-
 for z in d:
     customer_under0 = Person(z)
     customer_under0.amIOld()
