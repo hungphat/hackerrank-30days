@@ -1,4 +1,4 @@
-f  = open('..//Input-Output//input.txt', 'r')
+f  = open('..//Input-Output//input.txt', 'r')  #TODO Phat tep input.txt nay dung chung voi bai day_01 ?
 wr = open('..//Input-Output//output.txt', 'w')
 d = []
 for a in f:

@@ -37,3 +37,5 @@ for j in g:
     customer_yp = customer.yearPasses()
     Person(customer_yp).amIOld()
     print('\n')
+
+#TODO Phat em dat ten bien co' y nghia hon, tranh' viec dat ten theo bang chu cai abcdefg

@@ -11,3 +11,5 @@ class compute:
            print(self.num * i)
 a = int(f.readline())
 compute(a).multiples()
+
+#TODO Phat vi sao phai luon viet 1 class, minh co the chi can khai bao' ham multiples() tr.tiep
