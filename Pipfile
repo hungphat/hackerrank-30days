@@ -6,9 +6,8 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-#TODO Phat why hackerrank need sqlalchemy?
-sqlalchemy = "*"
 psycopg2 = "*"
+pytest = "*"
 
 [requires]
 python_version = "3.6"
