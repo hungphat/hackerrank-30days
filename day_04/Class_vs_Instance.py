@@ -1,5 +1,5 @@
-f  = open('..//Input-Output//input.txt', 'r')
-wr = open('..//Input-Output//output.txt', 'w')
+f  = open('input.txt', 'r')
+wr = open('output.txt', 'w')
 d = []
 e = []
 g = []
@@ -7,15 +7,15 @@ class Person:
     def __init__(self,initialAge):
         self.inittia_age = initialAge
         if self.inittia_age < 0:
-            print('Age is not valid, setting age to 0')
+            wr.write('Age is not valid, setting age to 0 \n')
     def amIOld(self):
         compte = self.inittia_age
         if compte>=0 and compte < 13 :
-            print('You are young.')
+            wr.write('You are young.\n')
         if compte >=13 and compte < 18:
-            print('You are teenager.')
+            wr.write('You are teenager.\n')
         if compte >=18:
-            print('You are old.')
+            wr.write('You are old.\n')
     def yearPasses(self):
         return self.inittia_age + 3
 
@@ -30,12 +30,12 @@ for z in d:
     customer_under0.amIOld()
     customer_under0_yp = customer_under0.yearPasses()
     Person(customer_under0_yp).amIOld()
-    print('\n')
+    wr.write('\n \n')
 for j in g:
     customer = Person(j)
     customer.amIOld()
     customer_yp = customer.yearPasses()
     Person(customer_yp).amIOld()
-    print('\n')
+    wr.write('\n \n')
 
 #TODO Phat em dat ten bien co' y nghia hon, tranh' viec dat ten theo bang chu cai abcdefg

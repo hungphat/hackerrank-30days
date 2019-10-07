@@ -1,5 +1,5 @@
-f  = open('..//Input-Output//input.txt', 'r')  #TODO Phat tep input.txt nay dung chung voi bai day_01 ?
-wr = open('..//Input-Output//output.txt', 'w')
+f  = open('input.txt', 'r')  #TODO Phat tep input.txt nay dung chung voi bai day_01 ?
+wr = open('output.txt', 'w') #em da tach ra moi bai se co in out rieng roi a
 d = []
 for a in f:
     c = a.strip()

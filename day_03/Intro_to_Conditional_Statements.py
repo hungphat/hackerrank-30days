@@ -1,5 +1,5 @@
-f  = open('..//Input-Output//input.txt', 'r')
-wr = open('..//Input-Output//output.txt', 'w')
+f  = open('input.txt', 'r')
+wr = open('output.txt', 'w')
 d = []
 for a in f:
     c = a.strip()
