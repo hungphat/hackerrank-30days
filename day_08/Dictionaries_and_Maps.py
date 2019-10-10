@@ -1,10 +1,10 @@
 f  = open('input.txt', 'r')
 wr = open('output.txt', 'w')
 class Customer:
-    def __init__(self,array):
+    def __init__(self, array):
         self.array = array
 
-    def phone_list(self,n):
+    def phone_list(self, n):
         array = self.array
         phone_list = []
         query_name = []

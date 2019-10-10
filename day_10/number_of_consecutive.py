@@ -1,20 +1,15 @@
-f  = open('input.txt', 'r')
-wr = open('output.txt', 'w')
+def run(input,output):
+    f  = open(input, 'r')
+    wr = open(output, 'w')
+    d = []
+    arr =[]
+    i=0
+    input_string = bin(int(f.readline()))[2:]
+    max_1 = len(max(input_string.split('0')))
+    print(max_1)
 
-d = []
-d = bin(13)
-e = []
-line  = 0
-count = 0
-abb=0
-for i in d:
-    if line > 1 :
-        e.append(i)
-        count +=1
-    line+=1
-print(e)
-
-
+if __name__ == '__main__':
+    run('input.txt','output.txt')
 
 
 
