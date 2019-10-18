@@ -1,14 +1,14 @@
-f  = open('input.txt', 'r')
-wr = open('output.txt', 'w')
-d = []
-
-class compute:
-    def __init__(self,num):
-        self.num = num
-    def multiples(self):
+def run(input, output):
+    f  = open(input, 'r')
+    wr = open(output, 'w')
+    d = []
+    def multiples(b):
         for i in range(1,11):
-           wr.write(str(f'{self.num * i} \n'))
-a = int(f.readline())
-compute(a).multiples()
+            wr.write(str(f'{b} x {i} = {b * i}\n'))
+    a = int(f.readline())
+    multiples(a)
+    wr.close()
 
-#TODO Phat vi sao phai luon viet 1 class, minh co the chi can khai bao' ham multiples() tr.tiep
+if __name__ == '__main__':
+    run('input.txt', 'output.txt')
+
