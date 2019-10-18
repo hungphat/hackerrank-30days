@@ -9,7 +9,7 @@ def run(input, output):
             array = self.array
             phone_list = []
             query_name = []
-            list = 0
+            list = 0               # TODO list is the built-in function name, dont use this for variable
             for i in array:
                 if list < n :
                     phone_list.append(i.split())

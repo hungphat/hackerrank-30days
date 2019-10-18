@@ -4,7 +4,7 @@ def run(input, output):
             #self.inter = n
             self.rang  = rang
 
-        def Arrange(self,line):
+        def Arrange(self,line):  # TODO do NOT capital first letter function in
             r = self.rang
             for a in r:
                 e = list(a)

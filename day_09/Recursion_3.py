@@ -9,3 +9,6 @@ def run(input, output):
    wr.write(f'{z}\n')
 if __name__ == '__main__':
     run('input.txt', 'output.txt')
+
+# TODO wrong code, rewrite please
+#  they said: "Complete the factorial function below."

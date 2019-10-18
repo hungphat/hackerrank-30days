@@ -5,7 +5,7 @@ def run(input, output):
     e = []
     class Person:
         def __init__(self,initialAge):
-            self.inittia_age = initialAge
+            self.inittia_age = initialAge       # TODO inittia? please use useful name variable
             if self.inittia_age < 0:
                 wr.write('Age is not valid, setting age to 0\n')
         def amIOld(self):

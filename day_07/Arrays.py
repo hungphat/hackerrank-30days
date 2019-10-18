@@ -20,5 +20,8 @@ n = int(f.readline())
 d = []
 for i in f:
     read = i.strip()
-    d.append(read)
+    d.append(read)          # TODO what are you doing here? If you want to get the array, why you dont use
+                            #  *arr = list(map(int, input().rstrip().split()))* from HKR website ?
 Array(d).reverse_array(n)
+
+# TODO no need to use class
