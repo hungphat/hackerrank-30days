@@ -45,10 +45,12 @@ def run(input, output):
     f = open(input, 'r')
     wr = open(output, 'w')
     input_info = f.readline().rstrip('\n').split(" ")
-    firstName = input_info[0]
+    firstName = input_info[0]               # TODO in python, we dont use uppercase in variable like C#.
+                                            #      please read for more information ref. https://stackoverflow.com/questions/159720/what-is-the-naming-convention-in-python-for-variable-and-function-names
+                                            #      please install pep8 to follow coding convention.
     lastName = input_info[1]
     idNum = input_info[2]
-    numScore = int(f.readline())
+    numScore = int(f.readline())            # TODO redundant variable
     scores = list(map(int, f.readline().split()))
     s = Student(firstName, lastName, idNum, scores)
     s.printPerson()
@@ -58,4 +60,4 @@ def run(input, output):
 if __name__ == '__main__':
     run('input.txt','output.txt')
 
-
+# TODO noone create Class inside function

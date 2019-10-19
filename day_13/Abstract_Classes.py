@@ -9,7 +9,8 @@ def run(input, output):
         def display(): pass
 
     #Write MyBook class
-    class my_book(Book):
+    class my_book(Book):                    # TODO the exercise told you that creating Clase MyBook(), I dont understand why you create a 'my_book'
+                                            #      The Class name should be uppercase
         def __init__(self, title, author,  price):
             Book.__init__(self, title, author)
             self.price = price
